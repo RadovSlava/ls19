@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <button id="first" onclick="Function1()">First</button>
+    <button id="second" onclick="Function2()">Second</button>
+    <button id="Third" onclick="Function3()">Third</button>
+    <p id="my">Click on any button</p>
+
+
+
+    <script>
+        function Function1() {
+            document.getElementById("first");
+            document.getElementById("my").innerHTML = 'you clicked first button';
+        }
+
+        function Function2() {
+            document.getElementById("second");
+            document.getElementById("my").innerHTML = 'you clicked second button';
+        }
+
+
+        function Function3() {
+            document.getElementById("Third");
+            document.getElementById("my").innerHTML = 'you clicked third button';
+        }
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
